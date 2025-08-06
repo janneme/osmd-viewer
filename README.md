@@ -31,4 +31,6 @@ The file `config.js` contains preconfigured links to CPDL and the path to the lo
 
 After starting the application, use the top bar to select the piece to display and choose the modes for the left and right panels.
 
+If the OpenSheetMusicDisplay library is not able to load the MXL file, an error message will be displayed in the panel. Sometimes this error message is rather general. If you open a JavaScript console there is a chance the library logs more details there.
+
 ![Screenshot](public/app_screenshot.png)
